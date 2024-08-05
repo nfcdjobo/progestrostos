@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fiche de Cession en Réassurance Facultative</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="p-5">
+<div class="header flex flex-col items-center">
+    <h1 class="text-xs font-bold">{{header_title}}</h1>
+    <img src="{{header_img_url}}" alt="" class="w-full h-10 object-cover">
+</div>
+<div class="mb-4 mt-4">
+    <p class="text-justify text-base mb-0">{{reinsurance_logo_url}}</p>
+
+</div>
+
+<div class="ml-20 mr-20 mt-5 mb-5">
+    <p class="text-center text-2xl font-bold  mb-4 font-family:  ">Fiche de Cession en Réassurance Vie</p>
+    <div class="border-b-2 border-black mb-4">
+        <p class="text-justify text-2xl mb-4 font-bold font-family: 'Cooper Black' ">Cédante</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>Cession N°:</strong> CASE-04061</p>
+        <p class="text-justify text-base mb-0"><strong>Code Cédante: </strong></p>
+        <p class="text-justify text-base mb-0"><strong>Monnaie:</strong> FRANC CFA BCEAO</p>
+        <p class="text-justify text-base mb-0"><strong>Nom de la Cédante:</strong> Insurance Company Non Life-01-Test</p>
+        <p class="text-justify text-base mb-0"><strong>Pays:</strong> COTE D&#x27;IVOIRE</p>
+    </div>
+<div class="border-b-2 border-black mb-4">
+        <p class="text-justify text-2xl mb-4 font-bold font-family: 'Cooper Black' ">Assuré</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>Nom & Prénoms:</strong> ROMANCE BLE</p>
+        <p class="text-justify text-base mb-0"><strong>Pays:</strong> COTE D&#x27;IVOIRE</p>
+        <p class="text-justify text-base mb-0"><strong>Adresse:</strong> ABIDJAN</p>
+        <p class="text-justify text-base mb-0"><strong>Date de naissance:</strong> 01/01/1970</p>
+    </div>
+    <div class="border-b-2 border-black mb-4">
+        <p class="text-justify text-2xl mb-4 font-bold font-family: 'Cooper Black' ">Tarif</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>Age Tarif:</strong> 3.50%</p>
+        <p class="text-justify text-base mb-0"><strong>Surmortalité:</strong> 0.00%</p>
+    </div>
+    <div class="border-b-2 border-black mb-4">
+        <p class="text-justify text-2xl mb-4 font-bold font-family: 'Cooper Black' ">Contrat</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>N° Police:</strong> PN-04061</p>
+        <p class="text-justify text-base mb-0"><strong>Date Effet:</strong> 04/06/2024</p>
+        <p class="text-justify text-base mb-0"><strong>Date Echéance:</strong> 03/06/2025</p>
+        <p class="text-justify text-base mb-0"><strong>Nature:</strong> RISQUE NATURE 01</p>
+        <p class="text-justify text-base mb-0"><strong>Sous-Branche:</strong> </p>
+        <p class="text-justify text-base mb-0"><strong>Capitaux Garantis:</strong> </p>
+        <p class="text-justify text-base mb-0"><strong>Taux de Prime:</strong> 3.50%</p>
+        <p class="text-justify text-base mb-0"><strong>Surprime Décès:</strong> 1.00%</p>
+        <p class="text-justify text-base mb-0"><strong>Primes Garanties:</strong> 1613500</p>
+        <p class="text-justify text-base mb-0"><strong>Prime Totales:</strong> 1613500</p>
+    </div>
+    <div class="border-b-2 border-black mb-4">
+        <p class="text-justify text-2xl mb-4 font-bold font-family: 'Cooper Black' ">Réassurance</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>Date Effet:</strong> 04/06/2024</p>
+        <p class="text-justify text-base mb-0"><strong>Date Echéance:</strong> 03/06/2025</p>
+        <p class="text-justify text-base mb-0"><strong>Capitaux Cédés:</strong> 30000</p>
+        <p class="text-justify text-base mb-0"><strong>Taux de cession:</strong> 100.00%</p>
+        <p class="text-justify text-base mb-0"><strong>Prime totale cédée:</strong> 50099174999.99999</p>
+        <p class="text-justify text-base mb-0"><strong>Commission de cession:</strong> 2.00%</p>
+        <p class="text-justify text-base mb-0"><strong>Commission de courtage:</strong> 0.00%</p>
+        <p class="text-justify text-base mb-0"><strong>Prime nette cédée:</strong> NaN</p>
+    </div>
+<div class="border-b-2 border-black mb-4">
+
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4 font-serif font-family: Times New Roman ">
+        <p class="text-justify text-base mb-0"><strong>Pour la Compagnie:</strong> Insurance Company Non Life-01-Test  </p>
+        <p class="text-justify text-base mb-0"><strong>Pour le Réassureur:</strong> {{for_the_reinsurer}}</p>
+        <p class="text-justify text-base mb-0"><strong>A:</strong>  <strong>le:</strong> 04/06/2024 </p>
+        <p class="text-justify text-base mb-0"><strong>A:</strong> {{location_reinsurer}} <strong>le:</strong> {{at_date_reinsurer}}</p>
+        <p class="text-justify text-base mb-0"><strong>Signature:</strong> <img src="[object Promise]" alt=""></p>
+        <p class="text-justify text-base mb-0"><strong>Signature:</strong> <img src="{{signature_reinsurer_url}}" alt=""></p>
+        <p class="text-justify text-base mb-0"><strong>Tampon:</strong> <img src="[object Promise]" alt=""></p>
+        <p class="text-justify text-base mb-0"><strong>Tampon:</strong> <img src="{{stamp_reinsurer_url}}" alt=""></p>
+
+    </div>
+</div>
+<div class="footer flex flex-col items-center mt-1">
+    <img src="{{footer_img_url}}" alt="" class="w-full h-20 object-cover">
+    <h2 class="text-xs font-bold">{{footer_title}}</h2>
+</div>
+</body>
+</html>

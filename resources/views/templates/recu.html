@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #b30000;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+}
+
+.invoice-container {
+    background: #fff;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #e60000;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.invoice-info, .invoice-to {
+    text-align: right;
+}
+
+.invoice-info p, .invoice-to p {
+    margin: 4px 0;
+}
+
+.service-description {
+    margin: 20px 0;
+}
+
+.service-description h2 {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.service-description table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.service-description table th, .service-description table td {
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    text-align: left;
+}
+
+.service-description table .total {
+    font-weight: bold;
+}
+
+.payment-methods, .signature, .footer {
+    margin: 20px 0;
+}
+
+.signature-space {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    width: 200px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.footer p strong {
+    font-size: 16px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="service-description">
+            <table>
+                <tr style="border: none;">
+                    <td style="border: none;" rowspan="2">
+                        <div class="logo">
+                            <img src="burger-logo.png" alt="Logo">
+                        </div>
+                    </td>
+                    <td style="border: none;">
+                        <strong>Reçu No: </strong> <span>214587889</span>
+                    </td>
+                    <td style="border: none;"></td>
+                    <td style="border: none; text-align: end; align-items: end; ">
+                        <strong>De : </strong> <span>ETS DOUAHY</span>
+                    </td>
+                </tr>
+
+                <tr style="border: none;">
+                    <td style="border: none;">
+                        <strong>Référence : </strong> <span>1457885792467</span>
+                    </td>
+                    <td style="border: none;"></td>
+                    <td style="border: none; text-align: end; align-items: end; ">
+                        <strong>Abidjane : </strong> <span>Cocody 2Plateau</span>
+                    </td>
+                </tr>
+                <tr style="border: none;">
+                    <td style="border: none;">
+                        ETS DOUAHY
+                    </td>
+                    <td style="border: none;">
+                        <strong>Date : </strong> <span>07/06/2024</span>
+                    </td>
+                    <td style="border: none;"></td>
+                    <td style="border: none; text-align: end; align-items: end; ">
+                        <strong>Telephone : </strong> <span>+17344548894</span>
+                    </td>
+                </tr>
+                <tr style="border: none;">
+                    <td colspan="1" style="border: none;"></td>
+                    <td style="border: none;">
+                        <strong>Manager : </strong> <span>KONAN Jean</span>
+                    </td>
+                    <td style="border: none;"></td>
+                    <td style="border: none; text-align: end; align-items: end; ">
+                        <strong>Email : </strong> <span>etsdouahy@gmail.com</span>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="service-description">
+            <h2>Description</h2>
+            <table>
+                <tr style="border-bottom: 2px solid red;">
+                    <th>Nouriture</th>
+
+                    <th></th>
+                    <th>Unité</th>
+                    <th>Prix</th>
+
+                    <th style="text-align: end; align-items: end; ">Montant</th>
+                </tr>
+                <tr>
+                    <td>Foutou sauce graine à viande d'agoutie</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2000XOF</td>
+                    <td style="text-align: end; align-items: end; ">2000XOF</td>
+                </tr>
+
+                <tr>
+                    <td>Plat 2</td>
+                    <td></td>
+                    <td>2</td>
+                    <td>2000XOF</td>
+                    <td style="text-align: end; align-items: end; ">4000XOF</td>
+                </tr>
+                <tr>
+                    <td>Plat 3</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>1000XOF</td>
+                    <td style="text-align: end; align-items: end; ">1000XOF</td>
+                </tr>
+                <tr>
+                    <td>Plat 4</td>
+                    <td></td>
+                    <td>3</td>
+                    <td>1500XOF</td>
+                    <td style="text-align: end; align-items: end; ">4500XOF</td>
+                </tr>
+                <tr >
+                    <td >Plat 5</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>5000XOF</td>
+                    <td style="text-align: end; align-items: end; ">5000XOF</td>
+                </tr>
+
+                <tr style="font-size: 25px; border-top: 2px solid red; border-right: 2px solid red; border-left: 2px solid red;">
+                    <td colspan="4">Montant total</td>
+
+                    <td style="color: red; text-align: end; align-items: end; ">165000 XOF</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <p><strong>ETS DOUAHY vous remerci pour votre fidélité et vous souhaite bonne chance !</strong></p>
+            <p>www.etsdouahy.com | @etsdouahy</p>
+        </div>
+    </div>
+</body>
+</html>
